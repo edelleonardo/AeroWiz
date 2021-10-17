@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.0" />
+	    <PackageReference Include="Syncfusion.Blazor.Buttons" Version="19.3.0.45" />
+      <PackageReference Include="Syncfusion.Blazor.Cards" Version="19.3.0.45" />
+    <PackageReference Include="Syncfusion.Blazor.Navigations" Version="19.3.0.45" />
+</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\AeroWiz.Client.csproj" />
+    <ProjectReference Include="..\Shared\AeroWiz.Shared.csproj" />
+      <PackageReference Include="Syncfusion.Blazor.Cards" Version="19.3.0.45" />
+    <PackageReference Include="Syncfusion.Blazor.Navigations" Version="19.3.0.45" />
+</ItemGroup>
+
+
+</Project>

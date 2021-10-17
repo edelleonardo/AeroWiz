@@ -1,0 +1,134 @@
+﻿@inherits LayoutComponentBase
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<div id="wrapper">
+    <!--header-section  declaration -->
+    <div>
+        <SfToolbar>
+            <ToolbarEvents Clicked="@Toggle"></ToolbarEvents>
+            <ToolbarItems>
+                <ToolbarItem PrefixIcon="fas fa-bars"  TooltipText="Menu"></ToolbarItem>
+                <ToolbarItem>
+                    <Template>
+                        <div class="e-folder">
+                            <div class="e-folder-name">Navigation Pane</div>
+                        </div>
+                    </Template>
+                </ToolbarItem>
+            </ToolbarItems>
+        </SfToolbar>
+    </div>
+    <!-- main content declaration -->
+    <div class="main-content">
+        <div class="content">
+            <div>
+                Hello world
+            </div>
+        </div>
+    </div>
+    <!--end of main content declaration -->
+    <!-- sidebar element declaration -->
+    <SfSidebar HtmlAttributes="@HtmlAttribute" Target=".main-content" Width="200px"  @ref="Sidebar" @bind-IsOpen="SidebarToggle" Type="@SidebarType.Auto">
+        <ChildContent>
+            <div class="main-menu">
+                <div>
+                    <SfMenu CssClass="dock-menu" Items="@MainMenuItems" Orientation="@VerOrientation"></SfMenu>
+                </div>
+            </div>
+        </ChildContent>
+    </SfSidebar>
+    <!-- end of sidebar element -->
+</div>
+
+
+<style>
+    .main-content {
+        height: 100vh
+    }
+
+
+    .scroller {
+        height: calc(100vh - 160px) !important;
+        overflow-y: auto;
+        width: 287px;
+    }
+
+        .scroller::-webkit-scrollbar, scrollbar-thumb
+        .scroller::-webkit-scrollbar-thumb {
+            width: 8px;
+            height: 110px;
+            border-radius: 4px;
+            position: center;
+        }
+
+        .scroller::-webkit-scrollbar-thumb {
+            box-shadow: inset 0 0 0 10px #313C75;
+            border-radius: 4px;
+        }
+
+        .scroller::-webkit-scrollbar-track {
+            width: 28px;
+        }
+
+    .separator {
+        border: 1px solid #FFFFFF;
+        opacity: 0.14;
+        width: 247px;
+        margin: 1rem;
+        margin-top: 0px;
+    }
+</style>
+@code {
+    SfSidebar Sidebar;
+    public Orientation Orientation = Orientation.Horizontal;
+    public Orientation VerOrientation = Orientation.Vertical;
+    public bool SidebarToggle = false;
+    Dictionary<string, object> HtmlAttribute = new Dictionary<string, object>()
+{
+        {"class", "sidebar-menu" }
+    };
+    public List<MenuItem> AccountMenuItems = new List<MenuItem> {
+        new MenuItem {
+            Text = "Account",
+            Items = new List<MenuItem> {
+                new MenuItem { Text = "Profile" },
+                new MenuItem { Text = "Sign out" }
+            }
+        }
+    };
+    public List<MenuItem> MainMenuItems = new List<MenuItem>{
+         new MenuItem {
+            Text = "Conceptual Mode",
+            Items = new List<MenuItem> {
+                new MenuItem { Text = "Aerodynamics" },
+                new MenuItem { Text = "AC Construction & Repair" },
+                 new MenuItem { Text = "Aircraft Powerplant" },
+                new MenuItem { Text = "Engineering Economics" },
+                new MenuItem { Text = "Aircraft Design & Structures" },
+                new MenuItem { Text = "Airlaws" }
+            }
+        },
+        new MenuItem {
+            Text = "Computational Mode", 
+                Items = new List<MenuItem> {
+                    new MenuItem{ Text = "Aerodynamics" },
+                    new MenuItem{ Text = "Engineering Economics" },
+                    new MenuItem{ Text = "Mathematics" }
+                }
+            },
+        new MenuItem {
+            Text = "True or False",
+        },
+        new MenuItem {
+            Text = "Trivia",
+        }
+
+    };
+    public void Toggle(ClickEventArgs args)
+    {
+        if (args.Item.TooltipText == "Menu")
+        {
+            SidebarToggle = !SidebarToggle;
+        }
+    }
+}
