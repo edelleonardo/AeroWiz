@@ -417,7 +417,6 @@ D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\AeroWiz.Client.cspr
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\AeroWiz.Client.MvcApplicationPartsAssemblyInfo.cache
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\AeroWiz.Client.RazorComponent.input.cache
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\RazorDeclaration\Pages\ButtonFeatures.razor.g.cs
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
@@ -429,7 +428,6 @@ D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\AeroWiz.Client.TagH
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\AeroWiz.Client.TagHelpers.output.cache
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\AeroWiz.Client.RazorCoreGenerate.cache
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\Razor\App.razor.g.cs
-D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\Razor\Pages\ButtonFeatures.razor.g.cs
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\Razor\_Imports.razor.g.cs

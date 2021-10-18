@@ -2,68 +2,60 @@
 
 
 <style>
-    .ulstyle {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        display: inline-block;
-        list-style-type: none !important;
-        padding-left: 0px !important;
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: space-evenly;
     }
 
-    .controlregion {
-        margin-top: 50px;
+
+    .question-card {
     }
 
-    .pagecontent {
-        font-family: sans-serif !important;
-font-size: 16px;
-color: #333333;
-letter-spacing: 0.34px;
-line-height: 24px;
-margin-top: 10px;
-    }
-    
-
-    .list {
-        float: left;
-        line-height: 40px;
-        min-width: 280px;
-        font-family: sans-serif !important;
-        font-size: 19px;
-        color: #0073DC;
+    .radio-control {
+        margin: 5%;
     }
 
-    .syncfusion-blazor-index-icons {
-        font-family: "sbicons";
-        color: #0073DC !important;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        padding-right: 13px;
-        font-size: 18px;
+    .row {
+        margin-bottom: 5%;
     }
 
-    .productheader {
-        font-family: sans-serif !important;
-        font-size: 19px !important;
-        color: #333333 !important;
-        letter-spacing: 0.41px ;
-    }
-
-    .pageheader {
-        font-family: sans-serif !important;
-        font-size: 24px !important;
-        color: #333333 ;
-        font-weight: bold !important;
-    }
 </style>
 
-<div>
+<div class="main-container">
+    <SfCard Orientation=CardOrientation.Vertical CssClass="col-lg-9 col-md-6 mx-auto question-card">
+        <CardHeader Title="Question" />
+        <CardContent Content="@CardQuestion" />
+    </SfCard>
+    <br />
+    <br />
+    <SfCard Orientation=CardOrientation.Vertical CssClass="col-lg-9 col-md-6 mx-auto">
+        <CardContent>
+            <div class="radio-control">
+                <div class="row">
 
-</div>
+                    <SfRadioButton Label="@Answer1" Name="answer" Value="true" Checked="false"></SfRadioButton>
+                </div>
+                <div class="row">
+                    <SfRadioButton Label="@Answer2" Name="answer" Value="false" Checked="false"></SfRadioButton>
+                </div>
+                <div class="row">
+                    <SfRadioButton Label="@Answer3" Name="answer" Value="false" Checked="false"></SfRadioButton>
+                </div>
+                <div class="row">
+                    <SfRadioButton Label="@Answer4" Name="answer" Value="false" Checked="false"></SfRadioButton>
+                </div>
+            </div>
+
+    </CardContent>
+</SfCard>
+ </div>
 
 
-@code {
 
-} 
+@code { string Answer1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+            string Answer2 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+            string Answer3 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+            string Answer4 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+            string CardQuestion = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat."; } 

@@ -103,6 +103,13 @@ using Syncfusion.Blazor.Navigations;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 14 "D:\Personal Projects\AeroWiz\AeroWiz\Client\_Imports.razor"
+using Syncfusion.Blazor.Buttons;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -111,6 +118,17 @@ using Syncfusion.Blazor.Navigations;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 57 "D:\Personal Projects\AeroWiz\AeroWiz\Client\Pages\Index.razor"
+        string Answer1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+            string Answer2 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+            string Answer3 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+            string Answer4 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+            string CardQuestion = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat."; 
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
