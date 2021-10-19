@@ -9,6 +9,10 @@
         align-content: space-evenly;
     }
 
+    .table-container {
+        border-spacing: 30px;
+        border-collapse: separate;
+    }
 
     .question-card {
     }
@@ -24,38 +28,74 @@
 </style>
 
 <div class="main-container">
-    <SfCard Orientation=CardOrientation.Vertical CssClass="col-lg-9 col-md-6 mx-auto question-card">
-        <CardHeader Title="Question" />
-        <CardContent Content="@CardQuestion" />
-    </SfCard>
-    <br />
-    <br />
-    <SfCard Orientation=CardOrientation.Vertical CssClass="col-lg-9 col-md-6 mx-auto">
-        <CardContent>
-            <div class="radio-control">
-                <div class="row">
+    <table class="table-container">
+        <tr>
+            <td>
+                <div class="col-lg-9 col-10 mx-auto">
+                    <SfProgressBar Type="ProgressType.Linear" ID="LinearSegment"
+                                   Height="30"
+                                   Width="100%" 
+                                   SegmentCount="50" 
+                                   Value="45" 
+                                   Minimum="0"
+                                   Maximum="50" CornerRadius="CornerType.Round"
+                                   Theme="Theme.Bootstrap"
+                                   TrackThickness="15"
+                                   ProgressThickness="15">
+                        <ProgressBarAnimation Enable="true" Duration="2000" Delay="0" />
+                    </SfProgressBar>
+                </div>
+         
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <SfCard Orientation=CardOrientation.Vertical CssClass="col-lg-9 col-10 mx-auto question-card">
+                    <CardHeader Title="Question" />
+                    <CardContent Content="@CardQuestion" />
+                </SfCard>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <SfCard Orientation=CardOrientation.Vertical CssClass="col-lg-9 col-10 mx-auto">
+                    <CardContent>
+                        <div class="radio-control">
+                            <div class="row">
 
-                    <SfRadioButton Label="@Answer1" Name="answer" Value="true" Checked="false"></SfRadioButton>
-                </div>
-                <div class="row">
-                    <SfRadioButton Label="@Answer2" Name="answer" Value="false" Checked="false"></SfRadioButton>
-                </div>
-                <div class="row">
-                    <SfRadioButton Label="@Answer3" Name="answer" Value="false" Checked="false"></SfRadioButton>
-                </div>
-                <div class="row">
-                    <SfRadioButton Label="@Answer4" Name="answer" Value="false" Checked="false"></SfRadioButton>
-                </div>
-            </div>
+                                <SfRadioButton Label="@Answer1" Name="answer" Value="true" Checked="false"></SfRadioButton>
+                            </div>
+                            <div class="row">
+                                <SfRadioButton Label="@Answer2" Name="answer" Value="false" Checked="false"></SfRadioButton>
+                            </div>
+                            <div class="row">
+                                <SfRadioButton Label="@Answer3" Name="answer" Value="false" Checked="false"></SfRadioButton>
+                            </div>
+                            <div class="row">
+                                <SfRadioButton Label="@Answer4" Name="answer" Value="false" Checked="false"></SfRadioButton>
+                            </div>
+                        </div>
 
-    </CardContent>
-</SfCard>
+                    </CardContent>
+                </SfCard>
+            </td>
+        </tr>
+    </table>
+    @*Question Card*@
+
+
+    @*Choices Card*@
+
  </div>
 
 
 
-@code { string Answer1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
-            string Answer2 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
-            string Answer3 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
-            string Answer4 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
-            string CardQuestion = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat."; } 
+@code { 
+  
+
+    string Answer1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+    string Answer2 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+    string Answer3 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+    string Answer4 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+    string CardQuestion = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
+    } 

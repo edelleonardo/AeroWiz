@@ -6,9 +6,11 @@
   <ContentRoot BasePath="_content/Syncfusion.Blazor.Core" Path="C:\Users\edell\.nuget\packages\syncfusion.blazor.core\19.3.0.45\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Syncfusion.Blazor.Data" Path="C:\Users\edell\.nuget\packages\syncfusion.blazor.data\19.3.0.45\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Syncfusion.Blazor.Inputs" Path="C:\Users\edell\.nuget\packages\syncfusion.blazor.inputs\19.3.0.45\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.LinearGauge" Path="C:\Users\edell\.nuget\packages\syncfusion.blazor.lineargauge\19.3.0.45\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Syncfusion.Blazor.Lists" Path="C:\Users\edell\.nuget\packages\syncfusion.blazor.lists\19.3.0.45\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Syncfusion.Blazor.Navigations" Path="C:\Users\edell\.nuget\packages\syncfusion.blazor.navigations\19.3.0.45\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Syncfusion.Blazor.Popups" Path="C:\Users\edell\.nuget\packages\syncfusion.blazor.popups\19.3.0.45\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor.ProgressBar" Path="C:\Users\edell\.nuget\packages\syncfusion.blazor.progressbar\19.3.0.45\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Syncfusion.Blazor.Spinner" Path="C:\Users\edell\.nuget\packages\syncfusion.blazor.spinner\19.3.0.45\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Syncfusion.Blazor.SplitButtons" Path="C:\Users\edell\.nuget\packages\syncfusion.blazor.splitbuttons\19.3.0.45\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Syncfusion.Blazor.Themes" Path="C:\Users\edell\.nuget\packages\syncfusion.blazor.themes\19.3.0.45\build\..\staticwebassets\" />

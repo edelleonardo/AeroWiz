@@ -669,3 +669,12 @@ D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\build-gz\TjGI0uR5.g
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\build-gz\Fy647kUl.gz
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\build-gz\CKY1Nklz.gz
 D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\build-gz\gkngaCNe.gz
+D:\Personal Projects\AeroWiz\AeroWiz\Client\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Blazor.ProgressBar.dll.gz
+D:\Personal Projects\AeroWiz\AeroWiz\Client\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Blazor.ProgressBar.dll
+D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\build-gz\FCnUi2uf.gz
+D:\Personal Projects\AeroWiz\AeroWiz\Client\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Blazor.LinearGauge.dll.gz
+D:\Personal Projects\AeroWiz\AeroWiz\Client\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.PdfExport.Net.dll.gz
+D:\Personal Projects\AeroWiz\AeroWiz\Client\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.Blazor.LinearGauge.dll
+D:\Personal Projects\AeroWiz\AeroWiz\Client\bin\Debug\net5.0\wwwroot\_framework\Syncfusion.PdfExport.Net.dll
+D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\build-gz\p9vr5vi9.gz
+D:\Personal Projects\AeroWiz\AeroWiz\Client\obj\Debug\net5.0\build-gz\jMdOa+7E.gz

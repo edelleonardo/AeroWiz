@@ -2,7 +2,6 @@ D:\Personal Projects\AeroWiz\AeroWiz\Shared\bin\Debug\net5.0\AeroWiz.Shared.deps
 D:\Personal Projects\AeroWiz\AeroWiz\Shared\bin\Debug\net5.0\AeroWiz.Shared.dll
 D:\Personal Projects\AeroWiz\AeroWiz\Shared\bin\Debug\net5.0\ref\AeroWiz.Shared.dll
 D:\Personal Projects\AeroWiz\AeroWiz\Shared\bin\Debug\net5.0\AeroWiz.Shared.pdb
-D:\Personal Projects\AeroWiz\AeroWiz\Shared\obj\Debug\net5.0\AeroWiz.Shared.csproj.AssemblyReference.cache
 D:\Personal Projects\AeroWiz\AeroWiz\Shared\obj\Debug\net5.0\AeroWiz.Shared.GeneratedMSBuildEditorConfig.editorconfig
 D:\Personal Projects\AeroWiz\AeroWiz\Shared\obj\Debug\net5.0\AeroWiz.Shared.AssemblyInfoInputs.cache
 D:\Personal Projects\AeroWiz\AeroWiz\Shared\obj\Debug\net5.0\AeroWiz.Shared.AssemblyInfo.cs

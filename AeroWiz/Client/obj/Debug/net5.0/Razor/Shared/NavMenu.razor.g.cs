@@ -107,6 +107,20 @@ using Syncfusion.Blazor.Buttons;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 15 "D:\Personal Projects\AeroWiz\AeroWiz\Client\_Imports.razor"
+using Syncfusion.Blazor.ProgressBar;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "D:\Personal Projects\AeroWiz\AeroWiz\Client\_Imports.razor"
+using Syncfusion.Blazor.LinearGauge;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

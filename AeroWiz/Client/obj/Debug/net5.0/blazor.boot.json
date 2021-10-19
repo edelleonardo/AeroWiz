@@ -35,13 +35,16 @@
       "Syncfusion.Blazor.Core.dll": "sha256-yCvGdgGwSOGwlzwJbI7xXUo09rPge+Y8sxddJ0OWKL4=",
       "Syncfusion.Blazor.Data.dll": "sha256-aTZ7+YtBbmTFi2P5KG1Goi4BSgObILmQrTewxGhyu7o=",
       "Syncfusion.Blazor.Inputs.dll": "sha256-IbTOEYPZzCXTJNzT+Gz9J2Q+nO1rOVhZWpD5l+f4WNI=",
+      "Syncfusion.Blazor.LinearGauge.dll": "sha256-h7xQjWubbIKLLwF4S2Umz8OKmwcekAe6ph\/JInkZ2xw=",
       "Syncfusion.Blazor.Lists.dll": "sha256-jli4AQ7ksw1Idlhw1K0NGf79+xVT+0fJTzcyY0toqBI=",
       "Syncfusion.Blazor.Navigations.dll": "sha256-Tj3GbUCKWOeVatASE2LOKhGEyfo1g1eSehCbQnmurf8=",
       "Syncfusion.Blazor.Popups.dll": "sha256-I4ncuhPrzXEGIeD5rqFzr9H91IV7gHyXQtO+P+R31us=",
+      "Syncfusion.Blazor.ProgressBar.dll": "sha256-FppaVjZT9XSOQ8rJvc0Z2Iy7fxASIxIV+W2zBjczfns=",
       "Syncfusion.Blazor.Spinner.dll": "sha256-S6aXhk+CxohFU8XnN\/tFm0EOnYrdhecqZySHcbLm\/iQ=",
       "Syncfusion.Blazor.SplitButtons.dll": "sha256-ofjSceQLS55SumvYy7K2jw+gSq3cpv3MKSXDubXscQw=",
       "Syncfusion.Blazor.Themes.dll": "sha256-DSSg6zGYL4HKCkORRAU1QpYqcli8LAjSVL+acNJKJh0=",
       "Syncfusion.Licensing.dll": "sha256-\/PwRmbuOpNUVtC0lnLa92zDqWQZM+hDzts2dRc7N6FE=",
+      "Syncfusion.PdfExport.Net.dll": "sha256-A8R0JRrXqPgFfaYwgxEuyTfJBmlYYDf38vLpYmbqgrA=",
       "System.IO.Pipelines.dll": "sha256-qj+ITVhmJUAkSBctDayU4uUjNTKdXqAbF2zAxo7\/mkM=",
       "Microsoft.CSharp.dll": "sha256-J3xEnfK9Stuxsk3ysfAkwm7tlSZzs8rytHhodu+3aA0=",
       "Microsoft.VisualBasic.Core.dll": "sha256-6gJT+FVMmaF5o4CyPAnHcWjWVtFMSdJke\/+1seKS1Y0=",
@@ -208,13 +211,13 @@
       "mscorlib.dll": "sha256-heWnofXFSc\/TfAxrWpjQxeuS+nlIOs9YycfI2QGXGM8=",
       "netstandard.dll": "sha256-mbIVAluJ7cAx0vUQshB\/c1zEIK5JcYwIYxo\/BQ\/meRU=",
       "System.Private.CoreLib.dll": "sha256-FrZbEyy47f3RDuj77R5oHUGxSGEDgRRxykTjImrLqfM=",
-      "AeroWiz.Shared.dll": "sha256-4ZKCrdQ8CVn1rKqrFGUnqf97YruRnZuyBsG583sQ1bg=",
-      "AeroWiz.Client.dll": "sha256-MVXq3cWut7+Sv8SBGpXrINc9TqgqazzRYqekpbbKIk0="
+      "AeroWiz.Shared.dll": "sha256-MWpn+rkstcrx1yVI+a9Zph3J\/gfyNJNO\/5r1CeS03h4=",
+      "AeroWiz.Client.dll": "sha256-0MsLP54S6Wv2wl7LzrX4KnmytGNWUNks3MdAlatd03g="
     },
     "lazyAssembly": null,
     "pdb": {
-      "AeroWiz.Shared.pdb": "sha256-6ztIMF7Wvf\/QRrs69kiZredjX78cUQ0cQLkTJk5AzbM=",
-      "AeroWiz.Client.pdb": "sha256-b35bacQW27X5RRRvgMHw2uq9Gf8vn7KGBzVD0AGyTwM="
+      "AeroWiz.Shared.pdb": "sha256-hTYYQvXu9wVkO+mNsYBOd1qcG6UuIMaVJWnMHvSyLNE=",
+      "AeroWiz.Client.pdb": "sha256-kNnprtRTP9eCzC6nl+W6xN3FqAKghzs7cOD\/eUsXMQ4="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-5ttRwTa4Rar530elwLdfGDeH9I9NX9MPyDl6zLi9uug=",

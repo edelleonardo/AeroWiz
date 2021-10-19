@@ -12,12 +12,16 @@
 	    <PackageReference Include="Syncfusion.Blazor.Buttons" Version="19.3.0.45" />
       <PackageReference Include="Syncfusion.Blazor.Cards" Version="19.3.0.45" />
     <PackageReference Include="Syncfusion.Blazor.Navigations" Version="19.3.0.45" />
+    <PackageReference Include="Syncfusion.Blazor.ProgressBar" Version="19.3.0.45" />
+    <PackageReference Include="Syncfusion.Blazor.LinearGauge" Version="19.3.0.45" />
 </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Shared\AeroWiz.Shared.csproj" />
       <PackageReference Include="Syncfusion.Blazor.Cards" Version="19.3.0.45" />
     <PackageReference Include="Syncfusion.Blazor.Navigations" Version="19.3.0.45" />
+    <PackageReference Include="Syncfusion.Blazor.ProgressBar" Version="19.3.0.45" />
+    <PackageReference Include="Syncfusion.Blazor.LinearGauge" Version="19.3.0.45" />
 </ItemGroup>
   
   

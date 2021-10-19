@@ -38,7 +38,9 @@
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "5.0.0",
           "Syncfusion.Blazor.Buttons": "19.3.0.45",
           "Syncfusion.Blazor.Cards": "19.3.0.45",
+          "Syncfusion.Blazor.LinearGauge": "19.3.0.45",
           "Syncfusion.Blazor.Navigations": "19.3.0.45",
+          "Syncfusion.Blazor.ProgressBar": "19.3.0.45",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -472,6 +474,12 @@
           "lib/net5.0/Microsoft.JSInterop.WebAssembly.dll": {}
         }
       },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
       "Newtonsoft.Json/12.0.3": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -562,6 +570,21 @@
           "lib/net5.0/Syncfusion.Blazor.Inputs.dll": {}
         }
       },
+      "Syncfusion.Blazor.LinearGauge/19.3.0.45": {
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "19.3.0.45",
+          "Syncfusion.PdfExport.Net.Core": "19.3.0.45"
+        },
+        "runtime": {
+          "lib/net5.0/Syncfusion.Blazor.LinearGauge.dll": {
+            "assemblyVersion": "19.3.0.45",
+            "fileVersion": "19.3.0.45"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Syncfusion.Blazor.LinearGauge.dll": {}
+        }
+      },
       "Syncfusion.Blazor.Lists/19.3.0.45": {
         "dependencies": {
           "Syncfusion.Blazor.Buttons": "19.3.0.45",
@@ -611,6 +634,21 @@
         },
         "compile": {
           "lib/net5.0/Syncfusion.Blazor.Popups.dll": {}
+        }
+      },
+      "Syncfusion.Blazor.ProgressBar/19.3.0.45": {
+        "dependencies": {
+          "Syncfusion.Blazor.Core": "19.3.0.45",
+          "Syncfusion.Blazor.Data": "19.3.0.45"
+        },
+        "runtime": {
+          "lib/net5.0/Syncfusion.Blazor.ProgressBar.dll": {
+            "assemblyVersion": "19.3.0.45",
+            "fileVersion": "19.3.0.45"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Syncfusion.Blazor.ProgressBar.dll": {}
         }
       },
       "Syncfusion.Blazor.Spinner/19.3.0.45": {
@@ -666,6 +704,20 @@
           "lib/net5.0/Syncfusion.Licensing.dll": {}
         }
       },
+      "Syncfusion.PdfExport.Net.Core/19.3.0.45": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Syncfusion.PdfExport.Net.dll": {
+            "assemblyVersion": "19.3.0.45",
+            "fileVersion": "19.3.0.45"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Syncfusion.PdfExport.Net.dll": {}
+        }
+      },
       "System.IO.Pipelines/5.0.0": {},
       "System.Net.Http.Json/5.0.0": {},
       "AeroWiz.Client/1.0.0": {
@@ -674,7 +726,9 @@
           "Microsoft.AspNetCore.Components.WebAssembly": "5.0.0",
           "Syncfusion.Blazor.Buttons": "19.3.0.45",
           "Syncfusion.Blazor.Cards": "19.3.0.45",
+          "Syncfusion.Blazor.LinearGauge": "19.3.0.45",
           "Syncfusion.Blazor.Navigations": "19.3.0.45",
+          "Syncfusion.Blazor.ProgressBar": "19.3.0.45",
           "System.Net.Http.Json": "5.0.0"
         },
         "runtime": {
@@ -2573,6 +2627,20 @@
       "path": "microsoft.jsinterop.webassembly/5.0.0",
       "hashPath": "microsoft.jsinterop.webassembly.5.0.0.nupkg.sha512"
     },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "path": "netstandard.library/2.0.0",
+      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    },
     "Newtonsoft.Json/12.0.3": {
       "type": "package",
       "serviceable": true,
@@ -2615,6 +2683,13 @@
       "path": "syncfusion.blazor.inputs/19.3.0.45",
       "hashPath": "syncfusion.blazor.inputs.19.3.0.45.nupkg.sha512"
     },
+    "Syncfusion.Blazor.LinearGauge/19.3.0.45": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1mTM0DoaFn6jWfGopOhdLglthmnEPB43l3ZVCELV15HpwIq+aA3tfZvAb2I3N77MPYfCLe3cD8waZexYYj2rog==",
+      "path": "syncfusion.blazor.lineargauge/19.3.0.45",
+      "hashPath": "syncfusion.blazor.lineargauge.19.3.0.45.nupkg.sha512"
+    },
     "Syncfusion.Blazor.Lists/19.3.0.45": {
       "type": "package",
       "serviceable": true,
@@ -2635,6 +2710,13 @@
       "sha512": "sha512-U/vAlBqQEhwQEyA0ekVrtu5czVaZX/QVKdYTzVipXbaTjR/B+gHMEPzoYxMJK5R950nV//yH7wcdVjIPdJuwEg==",
       "path": "syncfusion.blazor.popups/19.3.0.45",
       "hashPath": "syncfusion.blazor.popups.19.3.0.45.nupkg.sha512"
+    },
+    "Syncfusion.Blazor.ProgressBar/19.3.0.45": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ynv27MwiSIeFS6t0v6ublRnrhf+Knw36pw4S/co3hZoWsCdjPZaEbo2j8kReNUHEHvXVw5za4D50iPMVgtRj2A==",
+      "path": "syncfusion.blazor.progressbar/19.3.0.45",
+      "hashPath": "syncfusion.blazor.progressbar.19.3.0.45.nupkg.sha512"
     },
     "Syncfusion.Blazor.Spinner/19.3.0.45": {
       "type": "package",
@@ -2663,6 +2745,13 @@
       "sha512": "sha512-1xmsNi9yyUeB71H/hFix5kewNJ+VQp7kRZtV9vlLb6cMpHv5AfTWm3Mm7G+D1pY5KyNlNm8LJbgSjPgSARVD0A==",
       "path": "syncfusion.licensing/19.3.0.45",
       "hashPath": "syncfusion.licensing.19.3.0.45.nupkg.sha512"
+    },
+    "Syncfusion.PdfExport.Net.Core/19.3.0.45": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fU7OTqw40s6zQHZCmYHYKa+YUX4PtkkVfDCHy7NojZrOF66IbCbUmzHM+F3Gb5JaQckgd0DO8zIggpwRiOorhQ==",
+      "path": "syncfusion.pdfexport.net.core/19.3.0.45",
+      "hashPath": "syncfusion.pdfexport.net.core.19.3.0.45.nupkg.sha512"
     },
     "System.IO.Pipelines/5.0.0": {
       "type": "package",

@@ -69,7 +69,15 @@
               "target": "Package",
               "version": "[19.3.0.45, )"
             },
+            "Syncfusion.Blazor.LinearGauge": {
+              "target": "Package",
+              "version": "[19.3.0.45, )"
+            },
             "Syncfusion.Blazor.Navigations": {
+              "target": "Package",
+              "version": "[19.3.0.45, )"
+            },
+            "Syncfusion.Blazor.ProgressBar": {
               "target": "Package",
               "version": "[19.3.0.45, )"
             },

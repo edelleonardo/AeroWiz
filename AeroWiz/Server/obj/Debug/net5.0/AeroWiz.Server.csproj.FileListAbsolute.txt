@@ -63,3 +63,6 @@ D:\Personal Projects\AeroWiz\AeroWiz\Server\bin\Debug\net5.0\Syncfusion.Blazor.N
 D:\Personal Projects\AeroWiz\AeroWiz\Server\bin\Debug\net5.0\Syncfusion.Blazor.Popups.dll
 D:\Personal Projects\AeroWiz\AeroWiz\Server\bin\Debug\net5.0\Syncfusion.Blazor.Spinner.dll
 D:\Personal Projects\AeroWiz\AeroWiz\Server\bin\Debug\net5.0\Syncfusion.Blazor.SplitButtons.dll
+D:\Personal Projects\AeroWiz\AeroWiz\Server\bin\Debug\net5.0\Syncfusion.Blazor.ProgressBar.dll
+D:\Personal Projects\AeroWiz\AeroWiz\Server\bin\Debug\net5.0\Syncfusion.Blazor.LinearGauge.dll
+D:\Personal Projects\AeroWiz\AeroWiz\Server\bin\Debug\net5.0\Syncfusion.PdfExport.Net.dll

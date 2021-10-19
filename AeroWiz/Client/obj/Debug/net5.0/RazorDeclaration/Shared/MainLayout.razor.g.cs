@@ -110,6 +110,20 @@ using Syncfusion.Blazor.Buttons;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 15 "D:\Personal Projects\AeroWiz\AeroWiz\Client\_Imports.razor"
+using Syncfusion.Blazor.ProgressBar;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "D:\Personal Projects\AeroWiz\AeroWiz\Client\_Imports.razor"
+using Syncfusion.Blazor.LinearGauge;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998
@@ -121,8 +135,8 @@ using Syncfusion.Blazor.Buttons;
 #line 81 "D:\Personal Projects\AeroWiz\AeroWiz\Client\Shared\MainLayout.razor"
        
     SfSidebar Sidebar;
-    public Orientation Orientation = Orientation.Horizontal;
-    public Orientation VerOrientation = Orientation.Vertical;
+    public Syncfusion.Blazor.Navigations.Orientation Orientation = Syncfusion.Blazor.Navigations.Orientation.Horizontal;
+    public Syncfusion.Blazor.Navigations.Orientation VerOrientation = Syncfusion.Blazor.Navigations.Orientation.Vertical;
     public bool SidebarToggle = false;
     Dictionary<string, object> HtmlAttribute = new Dictionary<string, object>()
 {

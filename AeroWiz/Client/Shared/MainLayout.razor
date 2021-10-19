@@ -4,7 +4,7 @@
 <div id="wrapper">
     <!--header-section  declaration -->
     <div>
-        <SfToolbar>
+        <SfToolbar Height="5vh">
             <ToolbarEvents Clicked="@Toggle"></ToolbarEvents>
             <ToolbarItems>
                 <ToolbarItem PrefixIcon="fas fa-bars"  TooltipText="Menu"></ToolbarItem>
@@ -28,7 +28,7 @@
     </div>
     <!--end of main content declaration -->
     <!-- sidebar element declaration -->
-    <SfSidebar HtmlAttributes="@HtmlAttribute" Target=".main-content" Width="180px"  @ref="Sidebar" @bind-IsOpen="SidebarToggle" Type="@SidebarType.Auto">
+    <SfSidebar HtmlAttributes="@HtmlAttribute"  ID="sidebar" Target=".main-content" Width="180px"  @ref="Sidebar" @bind-IsOpen="SidebarToggle" Type="@SidebarType.Auto">
         <ChildContent>
             <div class="main-menu">
                 <div>
@@ -43,10 +43,10 @@
 
 <style>
     .main-content {
-        height: 100vh;
+        height: 95vh;
     }
 
-
+/*
     .scroller {
         height: calc(100vh - 160px) !important;
         overflow-y: auto;
@@ -76,12 +76,12 @@
         width: 247px;
         margin: 1rem;
         margin-top: 0px;
-    }
+    }*/
 </style>
 @code {
     SfSidebar Sidebar;
-    public Orientation Orientation = Orientation.Horizontal;
-    public Orientation VerOrientation = Orientation.Vertical;
+    public Syncfusion.Blazor.Navigations.Orientation Orientation = Syncfusion.Blazor.Navigations.Orientation.Horizontal;
+    public Syncfusion.Blazor.Navigations.Orientation VerOrientation = Syncfusion.Blazor.Navigations.Orientation.Vertical;
     public bool SidebarToggle = false;
     Dictionary<string, object> HtmlAttribute = new Dictionary<string, object>()
 {
