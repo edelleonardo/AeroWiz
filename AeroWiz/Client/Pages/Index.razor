@@ -30,26 +30,32 @@
 <div class="main-container">
     <table class="table-container">
         <tr>
-            <td>
+            <td >
                 <div class="col-lg-9 col-10 mx-auto">
                     <SfProgressBar Type="ProgressType.Linear" ID="LinearSegment"
                                    Height="30"
-                                   Width="100%" 
-                                   SegmentCount="50" 
-                                   Value="45" 
+                                   Width="100%"
+                                   Value="@ProgressValue"
                                    Minimum="0"
-                                   Maximum="50" CornerRadius="CornerType.Round"
+                                   Maximum="50"
                                    Theme="Theme.Bootstrap"
+                                   CornerRadius="CornerType.Round"
                                    TrackThickness="15"
                                    ProgressThickness="15">
-                        <ProgressBarAnimation Enable="true" Duration="2000" Delay="0" />
+                        <ProgressBarAnimation Enable="true" Duration="100" Delay="0" />
                     </SfProgressBar>
                 </div>
-         
             </td>
         </tr>
         <tr>
             <td>
+
+                @*<div class="card">
+                    <div class="card-body col-lg-9 col-10 mx-auto">
+                        This is some text within a card body.
+                        @CardQuestion
+                    </div>
+                </div>*@
                 <SfCard Orientation=CardOrientation.Vertical CssClass="col-lg-9 col-10 mx-auto question-card">
                     <CardHeader Title="Question" />
                     <CardContent Content="@CardQuestion" />
@@ -80,6 +86,12 @@
                 </SfCard>
             </td>
         </tr>
+
+        <tr>
+            <td align="right">
+            <SfButton Content="Okay" OnClick="@OnButtonClick"></SfButton>
+            </td>
+        </tr>
     </table>
     @*Question Card*@
 
@@ -91,11 +103,25 @@
 
 
 @code { 
-  
+    int ProgressValue = 0;
 
     string Answer1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
     string Answer2 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
     string Answer3 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
     string Answer4 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
     string CardQuestion = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
-    } 
+
+
+
+    void OnButtonClick()
+    {
+        CardQuestion = "2";
+        Answer1 = "Answer 2";
+        Answer2 = "Answer 2";
+        Answer3 = "Answer 2";
+        Answer4 = "Answer 2";
+        ProgressValue++;
+    }
+
+
+} 

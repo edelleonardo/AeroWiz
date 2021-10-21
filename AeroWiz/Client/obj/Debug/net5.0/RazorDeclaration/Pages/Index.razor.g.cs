@@ -133,16 +133,29 @@ using Syncfusion.Blazor.LinearGauge;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 93 "D:\Personal Projects\AeroWiz\AeroWiz\Client\Pages\Index.razor"
+#line 105 "D:\Personal Projects\AeroWiz\AeroWiz\Client\Pages\Index.razor"
         
-  
+    int ProgressValue = 0;
 
     string Answer1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
     string Answer2 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
     string Answer3 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
     string Answer4 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
     string CardQuestion = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue commodo vehicula. Vestibulum sed urna blandit, dignissim nisl non, volutpat.";
-    
+
+
+
+    void OnButtonClick()
+    {
+        CardQuestion = "2";
+        Answer1 = "Answer 2";
+        Answer2 = "Answer 2";
+        Answer3 = "Answer 2";
+        Answer4 = "Answer 2";
+        ProgressValue++;
+    }
+
+
 
 #line default
 #line hidden

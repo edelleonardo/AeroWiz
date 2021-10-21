@@ -212,12 +212,12 @@
       "netstandard.dll": "sha256-mbIVAluJ7cAx0vUQshB\/c1zEIK5JcYwIYxo\/BQ\/meRU=",
       "System.Private.CoreLib.dll": "sha256-FrZbEyy47f3RDuj77R5oHUGxSGEDgRRxykTjImrLqfM=",
       "AeroWiz.Shared.dll": "sha256-MWpn+rkstcrx1yVI+a9Zph3J\/gfyNJNO\/5r1CeS03h4=",
-      "AeroWiz.Client.dll": "sha256-0MsLP54S6Wv2wl7LzrX4KnmytGNWUNks3MdAlatd03g="
+      "AeroWiz.Client.dll": "sha256-+E7RUJjaER+oft9M05dIm0MDe6DHREVD6apj8VubZ2U="
     },
     "lazyAssembly": null,
     "pdb": {
       "AeroWiz.Shared.pdb": "sha256-hTYYQvXu9wVkO+mNsYBOd1qcG6UuIMaVJWnMHvSyLNE=",
-      "AeroWiz.Client.pdb": "sha256-kNnprtRTP9eCzC6nl+W6xN3FqAKghzs7cOD\/eUsXMQ4="
+      "AeroWiz.Client.pdb": "sha256-aw0nejEe3niFIkNbeKgBPmcasnWzXGlwO4bOzUi1KQY="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-5ttRwTa4Rar530elwLdfGDeH9I9NX9MPyDl6zLi9uug=",
